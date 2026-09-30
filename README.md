@@ -27,22 +27,22 @@ We are an open, community-built translation platform where every language deserv
 La-Lango/
 │
 ├── lalango/                  # Main package
-│   ├── __init__.py           # (Empty file)
+│   ├── __init__.py           
 │   ├── tokenizers/
-│   │   ├── __init__.py       # (Empty file)
-│   │   └── char_tokenizer.py # (From Colab Cell 2)
+│   │   ├── __init__.py       
+│   │   └── char_tokenizer.py 
 │   ├── data/
-│   │   ├── __init__.py       # (Empty file)
-│   │   └── dataset.py        # (From Colab Cell 3)
+│   │   ├── __init__.py       
+│   │   └── dataset.py        
 │   └── models/
-│       ├── __init__.py       # (Empty file)
-│       └── seq2seq_lstm.py   # (From Colab Cell 4)
+│       ├── __init__.py       
+│       └── seq2seq_lstm.py   
 │
 ├── scripts/
-│   └── train.py              # (From Colab Cell 5)
+│   └── train.py              
 │
 ├── datasets/
-│   └── sample_data.csv       # (From Colab Cell 1 - moved to a dedicated folder)
+│   └── sample_data.csv       
 │
 ├── requirements.txt          # NEW: Dependencies
 ├── .gitignore                # NEW: Ignored files
