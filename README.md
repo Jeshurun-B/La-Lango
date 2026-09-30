@@ -154,6 +154,19 @@ Check [ROADMAP.md](ROADMAP.md) to see what is being worked on.
 
 ---
 
+## Local Development Setup
+
+To work on Phase 1 of La Lango locally, follow these steps:
+
+**1. Clone the repository**
+```bash
+
+_git clone [https://github.com/wecncodecrew/La-Lango.git](https://github.com/wecncodecrew/La-Lango.git)
+cd La-Lango_
+
+```
+---
+
 ## Community
 
 - 💬 [GitHub Discussions](https://github.com/Wecncode/La-Lango/discussions)
