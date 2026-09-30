@@ -21,32 +21,33 @@ We are an open, community-built translation platform where every language deserv
 > **No external AI APIs. No black boxes. Everything is implemented from scratch.**
 
 ---
-
 ## Project structure
 
 ```
-la-lango-ai/
+La-Lango/
 │
-├── 📁 backend/           ← Translation engine + REST API (Python)
-│   ├── lalango/          ← Core package: models, tokenizers, data, API
-│   ├── scripts/          ← CLI tools: train, evaluate, preprocess
-│   ├── tests/            ← Automated tests
-│   └── experiments/      ← Jupyter notebooks (start here!)
+├── lalango/                  # Main package
+│   ├── __init__.py           # (Empty file)
+│   ├── tokenizers/
+│   │   ├── __init__.py       # (Empty file)
+│   │   └── char_tokenizer.py # (From Colab Cell 2)
+│   ├── data/
+│   │   ├── __init__.py       # (Empty file)
+│   │   └── dataset.py        # (From Colab Cell 3)
+│   └── models/
+│       ├── __init__.py       # (Empty file)
+│       └── seq2seq_lstm.py   # (From Colab Cell 4)
 │
-├── 📁 frontend/          ← Web UI (plain HTML / CSS / JavaScript)
-│   └── index.html        ← Entire UI in one file, no framework needed
+├── scripts/
+│   └── train.py              # (From Colab Cell 5)
 │
-├── 📁 languages/         ← Community language registry (add yours here!)
-├── 📁 data/              ← Your datasets go here (not tracked by git)
-├── 📁 docs/              ← Guides: architecture, data format, adding a language
+├── datasets/
+│   └── sample_data.csv       # (From Colab Cell 1 - moved to a dedicated folder)
 │
-├── README.md
-├── CONTRIBUTING.md
-├── ROADMAP.md
-└── LICENSE
+├── requirements.txt          # NEW: Dependencies
+├── .gitignore                # NEW: Ignored files
+└── README.md                 # NEW: Local dev instructions
 ```
-
----
 
 ## How the system works
 
